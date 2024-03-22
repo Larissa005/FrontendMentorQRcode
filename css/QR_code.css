@@ -1,0 +1,36 @@
+body {
+	background: hsl(212.3, 44.8%, 88.6%);
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	flex-flow: row wrap;
+}
+.card {
+	width: 275px;
+	display: block;
+	margin: 0% auto;
+	padding: 15px;
+	box-shadow: 1px 1px 30px -7px #3337;
+	background: #fff;
+	border-radius: 15px;
+	text-align: center;
+}
+img {
+	width: 100%;
+	border-radius: 10px;
+}
+#card_title {
+  font-family: "Outfit";
+  font-weight: 700;
+  color:hsl(218,44%,22%);
+}
+#card_subtitle {
+  font-family: "Outfit";
+  font-weight: 400;
+  color: hsl(220,15%,55%);
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	width: 100%;
+}
